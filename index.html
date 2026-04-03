@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam Hajdúch — Product Designer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="nav-logo" href="index.html">Adam Hajdúch</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap">
+        <h1 class="hero-heading">Adam Hajdúch is a product designer at Gen.</h1>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+      <div class="wrap">
+
+        <!-- Project 1: Clean Share -->
+        <article class="project-entry">
+          <div class="project-info">
+            <p class="project-label">Avast Cleaner &middot; iOS</p>
+            <h2 class="project-title">Clean Share</h2>
+            <p class="project-desc">A privacy feature that strips hidden metadata from photos before sharing — designed to build daily habits outside the app.</p>
+            <a href="clean-share.html" class="see-more">See case study &rarr;</a>
+          </div>
+          <div class="project-visual">
+            <div class="phone-mock c"></div>
+            <div class="phone-mock b"></div>
+            <div class="phone-mock a"></div>
+          </div>
+        </article>
+
+        <!-- Project 2: Swipe Clean -->
+        <article class="project-entry">
+          <div class="project-info">
+            <p class="project-label">Avast Cleaner &middot; iOS</p>
+            <h2 class="project-title">Swipe Clean</h2>
+            <p class="project-desc">A new way to review and clean your photo gallery — one photo at a time, using swipe gestures to make cleaning feel like browsing.</p>
+            <a href="swipe-clean.html" class="see-more">See case study &rarr;</a>
+          </div>
+          <div class="project-visual">
+            <div class="phone-mock a"></div>
+            <div class="phone-mock b"></div>
+            <div class="phone-mock c"></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="home-footer">
+    <div class="wrap">
+      <p>Adam Hajdúch, product designer.</p>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>

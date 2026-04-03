@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swipe Clean — Adam Hajdúch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <nav class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="nav-logo" href="index.html">Adam Hajdúch</a>
+      <a class="nav-back" href="index.html">&larr; All work</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Tagline -->
+    <section class="cs-tagline">
+      <div class="wrap">
+        <h1 class="cs-heading">Swipe Clean is a new way to review and clean your photo gallery in Avast Cleaner for iOS — one photo at a time, using swipe gestures. I led the design end&#8209;to&#8209;end, from strategy and concept through to usability testing.</h1>
+      </div>
+    </section>
+
+    <!-- Metadata -->
+    <div class="wrap">
+      <div class="cs-meta">
+        <div>
+          <p class="meta-label">My role</p>
+          <ul class="meta-list">
+            <li>End-to-end product design: strategy, concept, UI</li>
+            <li>Designed photo categorization and set logic system</li>
+            <li>Collaborated with UX researchers, engineers, and PM</li>
+          </ul>
+        </div>
+        <div>
+          <p class="meta-label">Results</p>
+          <ul class="meta-list">
+            <li>Feature in final stages before shipping</li>
+            <li>Usability testing confirmed swiping rated as faster, more fun, and more satisfying than existing manual cleaning methods</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero image -->
+    <div class="full-bleed">
+      <div class="img-ph landscape">
+        <div class="img-ph-icon"></div>
+        <span>Overview</span>
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>Users came, cleaned once, and never came back — and we kept asking the same question about why.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>The retention problem in Avast Cleaner wasn't a mystery. Cleaning is a task people perform reactively, when storage pressure forces their hand. Without that pressure, there's no reason to return. Our research made the emotional dimension of this plain: users who didn't manage their photos regularly described feeling overwhelmed, guilty, and avoidant about it.</p>
+        </div>
+        <div class="body-col">
+          <p>They knew their gallery was a mess, felt ashamed of it, and dealt with the feeling by buying more cloud storage rather than actually cleaning. The challenge we kept coming back to was whether cleaning could become something users actually wanted to do — not a chore triggered by a full phone, but something they'd reach for on their own.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>The grid wasn't overwhelming because users had too many photos. It was overwhelming because the photos had no meaning in that form.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>Our existing cleaning interface showed photos as a grid of small thumbnails organized by month — which could contain anywhere from a handful to several thousand images. At thumbnail size, making a decision about any individual photo is nearly impossible. There's no context, no narrative, no way to orient yourself within the mass of images. Users would open it, feel immediately lost, and close it again.</p>
+        </div>
+        <div class="body-col">
+          <p>Swiping one photo at a time would solve part of the problem, but not the underlying one. To make cleaning feel manageable, we first needed to give the gallery structure that users could actually navigate.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph landscape">
+        <div class="img-ph-icon"></div>
+        <span>Main screen</span>
+      </div>
+    </div>
+
+    <!-- Categorization -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>Categorization</span>
+      </div>
+      <div class="pull-quote">
+        <p>We organised the entire gallery into categories users already recognised — then broke each one into sets small enough to finish in a single session.</p>
+      </div>
+      <div class="body-single">
+        <p>The categorization system was the core design work of the project. I defined eight categories — Utility photos, Moments, Trips, Holidays, Events, People, Pets, and Months — each with its own logic for detecting and grouping photos using metadata like location, date, time, and content recognition. Within each category, photos are further divided into sets bounded by a strict rule: every set must contain between 10 and 80 photos.</p>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph landscape">
+        <div class="img-ph-icon"></div>
+        <span>Set size rule: 10–80 photos</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph landscape">
+        <div class="img-ph-icon"></div>
+        <span>Subdividing large trip sets</span>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="body-single">
+        <p>The 80-photo ceiling was a deliberate design constraint. A set that can be swiped in a few minutes delivers immediate, tangible value — the space saved number updates, the set disappears, progress is visible. The category names and section headings were written to feel like reviewing memories, not managing storage. "Retrace your steps" for trips, "Moments" for algorithmically surfaced highlights.</p>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph landscape">
+        <div class="img-ph-icon"></div>
+        <span>Main screen top — space saved counter</span>
+      </div>
+    </div>
+
+    <!-- Swiping -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>Swiping</span>
+      </div>
+      <div class="pull-quote">
+        <p>The interaction needed to feel immediately obvious — and in testing, users compared it to dating apps within the first few photos.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>The swiping interaction had one job: make each decision feel fast and consequence-free. Photos go to Trash, not permanent deletion — nothing is gone until the user decides to empty it. This separation was important because users in research consistently said they wanted control over deletion. The swipe is a sort, not a delete. Making that distinction clear in the interaction itself was the difference between an experience that felt safe to use quickly and one that felt risky.</p>
+        </div>
+        <div class="body-col">
+          <p>Feedback was designed to be immediate and legible at a glance. Color, motion, and a running counter all confirm what just happened without requiring the user to stop and read anything. In usability testing, the icon set and counter were described as a no-brainer — users picked up the pattern within the first two photos and kept going without hesitation. Several compared it to a game. That was exactly the response we were looking for.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Swiping overlays — left: trash, right: keep</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Swipe left interaction</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Swipe right interaction</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Trashed &amp; kept counters</span>
+      </div>
+    </div>
+
+    <!-- End of set and deletion -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>End of set and deletion</span>
+      </div>
+      <div class="pull-quote">
+        <p>The end of each set is where the work becomes real.</p>
+      </div>
+      <div class="body-single">
+        <p>Deletion lives in Trash rather than at the end of the swipe flow for a simple reason: Avast Cleaner already had a dedicated Trash section where all other deletions happened. Embedding deletion inside Swipe Clean would have split the same action across two different places in the app. Keeping it consistent meant directing users to Trash after swiping.</p>
+        <p>The end of each set is a moment of payoff — the first place where the value of what the user just did becomes concrete. The number of photos sorted and the space that will be freed are shown before any permanent action is taken, giving users a reason to keep going without pressure to commit immediately.</p>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>End of set screen</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Go to trash flow</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Deleting photos from trash</span>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Trash prompt on main screen</span>
+      </div>
+    </div>
+
+    <!-- Closing -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>Cleaning a gallery full of memories should feel like revisiting them — not filing paperwork.</p>
+      </div>
+      <div class="body-single">
+        <p>Every interaction in Swipe Clean is designed to work in the same direction: reduce friction, deliver value immediately, and make the next session feel like something worth coming back to. Sets are small enough to finish. Categories are familiar enough to navigate. Copy frames the experience as browsing, not maintenance. The space saved counter makes progress visible across sessions. Whether the sum of these decisions produces the habitual engagement we set out to build is what the data will confirm — but every design choice was made with that single goal in mind.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="wrap cs-footer">
+    <a href="index.html">&larr; All work</a>
+    <a href="#top">&uarr; Top</a>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>

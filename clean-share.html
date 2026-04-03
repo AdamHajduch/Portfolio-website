@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean Share — Adam Hajdúch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <nav class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="nav-logo" href="index.html">Adam Hajdúch</a>
+      <a class="nav-back" href="index.html">&larr; All work</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Tagline -->
+    <section class="cs-tagline">
+      <div class="wrap">
+        <h1 class="cs-heading">Clean Share is a privacy feature for Avast Cleaner on iOS that strips hidden metadata from photos before sharing them. I led the design end&#8209;to&#8209;end — strategy, concept, and shipped product.</h1>
+      </div>
+    </section>
+
+    <!-- Metadata -->
+    <div class="wrap">
+      <div class="cs-meta">
+        <div>
+          <p class="meta-label">My role</p>
+          <ul class="meta-list">
+            <li>End-to-end product design: strategy, concept, UI</li>
+            <li>Challenged and redefined original product brief</li>
+            <li>Collaborated with UX researchers, engineers, and PM</li>
+          </ul>
+        </div>
+        <div>
+          <p class="meta-label">Results</p>
+          <ul class="meta-list">
+            <li>Feature shipped on iOS</li>
+            <li>Part of Avast Cleaner's broader privacy feature ecosystem</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero image -->
+    <div class="full-bleed">
+      <div class="img-ph landscape row">
+        <img src="assets/clean-share/Media selected.png" alt="Media selected">
+        <img src="assets/clean-share/Share actions.png" alt="Share actions">
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>Only 1 in 10 users who installed Cleaner ever came back.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>Avast Cleaner helps iOS users remove duplicate photos, blurry shots, and junk files. The app does its job well — but that was the problem. Users would install it, clean their phone once, and leave. With day-one retention at 10% and declining from there, the issue wasn't quality. A cleaning app, by nature, solves a problem users only feel occasionally. To build retention, we needed to give people a reason to return that didn't depend on their storage being full.</p>
+        </div>
+        <div class="body-col">
+          <p>The question became: what behavior do our users already perform every day that we could attach real value to?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>Photos carry more information than most people realize — and most users have no idea.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>Every photo taken on an iPhone stores metadata alongside the image: exact location, date, time, and the device it was taken on. This data travels invisibly with every photo that gets shared. When we looked at how users actually think about sharing risk, 74% said their main protection strategy was sharing only with people they trusted. The metadata exposure wasn't on their radar at all.</p>
+        </div>
+        <div class="body-col">
+          <p>Our qualitative research confirmed it: users based their risk assessment entirely on their relationship with the recipient, unaware that a conversation could be hijacked, or that a photo could reveal their home address and daily routine to someone other than the intended recipient. When shown what their photos actually contained, two thirds rated automatic metadata removal as extremely or very valuable.</p>
+          <p>Sharing photos is something people do multiple times a day without thinking. That habitual behavior was exactly what we needed.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <img src="assets/clean-share/Metadata.png" alt="Metadata">
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>The original brief would have bloated the device every time the feature was used — the opposite of what Cleaner is for.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>The initial product direction was broader: strip metadata from photos and save clean copies to the device, letting users decide what to do with them afterward. I pushed back on this. It introduced significant complexity — clean copies would need to be differentiated from originals, stored somewhere, managed over time. More importantly, it worked against the app's core purpose. Cleaner exists to keep a device lean and organized.</p>
+        </div>
+        <div class="body-col">
+          <p>I made the case to narrow the scope to a single use case: sharing. Instead of saving cleaned copies to the device, we strip the metadata at the moment of sharing and send only the clean copy. The original stays untouched. This eliminated the storage problem entirely, aligned with Cleaner's existing purpose, and tied the feature to a behavior users already perform every day.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Entry point to feature via More Tools</span>
+      </div>
+    </div>
+
+    <!-- Onboarding -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>Onboarding</span>
+      </div>
+      <div class="pull-quote">
+        <p>The threat needed to feel real before the solution could feel necessary.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>For Clean Share to matter to users, they first had to understand what they were protecting themselves from. Most people had never thought about metadata — not because they don't care about privacy, but because the risk is completely invisible during normal use. The challenge was making it tangible without alarming people.</p>
+        </div>
+        <div class="body-col">
+          <p>The onboarding opens with a photo overlaid with the data it silently carries: a precise street address, a date, a time, a device model. No abstract language — just the actual information that travels with every photo a user sends. Only after that does the solution appear. Leading with the feature would have felt abstract. Showing the metadata first makes the removal feel meaningful.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones row">
+        <img src="assets/clean-share/Onboarding 1.png" alt="Onboarding 1">
+        <img src="assets/clean-share/Onboarding 2.png" alt="Onboarding 2">
+        <img src="assets/clean-share/Onboarding 3.png" alt="Onboarding 3">
+      </div>
+    </div>
+
+    <!-- In-app flow -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>In-app flow</span>
+      </div>
+      <div class="pull-quote">
+        <p>I wanted users to see exactly what was happening and what would happen next, at every step.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col" style="grid-column: 1 / -1">
+          <p>The in-app flow was designed around clarity of process. Users select photos, confirm through a bottom sheet that explains precisely what will occur — a clean copy will be created, hidden details removed, the original untouched — then watch the removal happen before the native iOS sharing sheet opens. Each state communicates its own stage in the sequence: selecting, confirming, removing, done.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones row">
+        <img src="assets/clean-share/Share actions.png" alt="Share actions">
+        <img src="assets/clean-share/Status progress.png" alt="Status progress">
+        <img src="assets/clean-share/Status done.png" alt="Status done">
+        <img src="assets/clean-share/iOS sharing sheet.png" alt="iOS sharing sheet">
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="body-cols">
+        <div class="body-col" style="grid-column: 1 / -1">
+          <p>The "View hidden data" option in the confirmation sheet was included for the same reason as the onboarding: users who want to see what they're protecting themselves from can inspect the exact metadata before it's removed. Making this inspectable on demand reinforces why the action is worth taking, rather than asking users to trust a feature they can't verify.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones row">
+        <img src="assets/clean-share/Preview multi 4.png" alt="Preview multi 4">
+        <img src="assets/clean-share/Preview multi 7.png" alt="Preview multi 7">
+        <img src="assets/clean-share/Preview multi 8.png" alt="Preview multi 8">
+      </div>
+    </div>
+
+    <!-- iOS sharing extension -->
+    <div class="wrap">
+      <div class="subsection-label">
+        <span>iOS sharing extension</span>
+      </div>
+      <div class="pull-quote">
+        <p>The in-app flow was always meant to be a bridge, not the destination.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>The long-term goal was habitual use — not habitual use of the Cleaner app specifically, but habitual safe sharing from wherever photos actually live. People share directly from their iOS gallery, from within other apps, from anywhere on their phone. The plan was to use the in-app experience to educate users and build familiarity with the feature first, then drive them toward the sharing extension.</p>
+        </div>
+        <div class="body-col">
+          <p>This transition happens at the best possible moment: immediately after a user successfully shares their first clean photo in-app, a success screen introduces the extension as a faster path. The prompt is earned — it appears when the value of the feature has just been demonstrated, not before.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <img src="assets/clean-share/Single success 9.png" alt="1 item shared safely — extension nudge">
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>The extension was already in the sharing sheet — buried at the bottom where no one would ever see it.</p>
+      </div>
+      <div class="body-cols">
+        <div class="body-col">
+          <p>iOS apps can register sharing extensions that appear automatically in the system sharing sheet once the app is installed. The problem is placement: by default, extensions land at the bottom of a long list, well below the actions users interact with regularly. For Clean Share to become part of how people share photos, it needed to be in the Favourites row at the very top — visible every time, across every app on the system.</p>
+        </div>
+        <div class="body-col">
+          <p>This required a short one-time setup: open the share sheet, tap Edit Actions, and pin Clean Share to Favourites. We built a two-screen guided flow that walks users through each step, with a button that opens the share sheet immediately so the action can be completed in the same moment rather than remembered for later.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones row">
+        <img src="assets/clean-share/Tap edit actions.png" alt="Add the safe sharing">
+        <img src="assets/clean-share/Add to favorites.png" alt="Safe sharing added">
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones">
+        <div class="img-ph-icon"></div>
+        <span>Removing hidden data from iOS gallery</span>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>A feature that lives outside the app can easily make the app invisible.</p>
+      </div>
+      <div class="body-single">
+        <p>Once users start sharing via the extension, they may never open Cleaner again. That's a success from a usage standpoint — but it creates a different problem: the app that built this capability disappears from view entirely. The success state in the extension was designed to address this directly. After metadata is removed, the confirmation reads: "Hidden data removed successfully. Protected by Avast." The branding isn't decorative. It keeps the connection between the safe sharing action and the product that enables it explicit — building that association every single time the feature is used.</p>
+      </div>
+    </div>
+
+    <div class="full-bleed">
+      <div class="img-ph phones row">
+        <img src="assets/clean-share/Gallery photo.png" alt="Gallery photo">
+        <img src="assets/clean-share/Photo sharing.png" alt="Photo sharing">
+        <img src="assets/clean-share/Removing.png" alt="Removing">
+        <img src="assets/clean-share/Removed.png" alt="Removed">
+      </div>
+    </div>
+
+    <!-- Closing -->
+    <div class="wrap">
+      <div class="pull-quote">
+        <p>The goal was never to make users open Cleaner more often. It was to make Cleaner useful in a place they already were.</p>
+      </div>
+      <div class="body-single">
+        <p>Clean Share is built on a deliberate assumption: that a habit formed outside the app is still a habit. Each time a user taps the extension in their share sheet, they're reminded that Avast is protecting them — not inside a utility they open once a month, but in a gesture woven into how they communicate every day. Whether that assumption holds is something the data will eventually confirm. The design was built to give it the best possible chance.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="wrap cs-footer">
+    <a href="index.html">&larr; All work</a>
+    <a href="#top">&uarr; Top</a>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    });
+  </script>
+
+</body>
+</html>
